@@ -1,0 +1,152 @@
+
+[client]
+
+	#chiselsandbits.config.client.settings.comment
+	[client.settings]
+
+		[client.settings.settings]
+
+			[client.settings.settings.radial]
+
+				[client.settings.settings.radial.menu]
+					#chiselsandbits.config.settings.radial.menu.volume.comment
+					#Range: 4.9E-324 ~ 1.7976931348623157E308
+					volume = 0.10000000149011612
+
+		[client.settings.client]
+			#chiselsandbits.config.client.enable-right-click-mode-change.comment
+			enable-right-click-mode-change = false
+
+			[client.settings.client.settings]
+				#chiselsandbits.config.client.settings.chat-mode-notification.comment
+				chat-mode-notification = true
+				#chiselsandbits.config.client.settings.item-name-mode-display.comment
+				item-name-mode-display = true
+				#chiselsandbits.config.client.settings.show-usage.comment
+				show-usage = true
+				#chiselsandbits.config.client.settings.per-chisel-mode.comment
+				per-chisel-mode = true
+				#chiselsandbits.config.client.settings.invert-bit-bag-fullness.comment
+				invert-bit-bag-fullness = false
+
+				[client.settings.client.settings.undo]
+					#chiselsandbits.config.client.settings.undo.max-count.comment
+					#Range: > -2147483648
+					max-count = 10
+
+				[client.settings.client.settings.enable]
+
+					[client.settings.client.settings.enable.toolbar]
+						#chiselsandbits.config.client.settings.enable.toolbar.icons.comment
+						icons = true
+
+					[client.settings.client.settings.enable.chisel-mode]
+						#chiselsandbits.config.client.settings.enable.chisel-mode.plane.comment
+						plane = true
+						#chiselsandbits.config.client.settings.enable.chisel-mode.line.comment
+						line = true
+						#chiselsandbits.config.client.settings.enable.chisel-mode.drawn-region.comment
+						drawn-region = true
+						#chiselsandbits.config.client.settings.enable.chisel-mode.snap-2.comment
+						snap-2 = true
+						#chiselsandbits.config.client.settings.enable.chisel-mode.cube-small.comment
+						cube-small = true
+						#chiselsandbits.config.client.settings.enable.chisel-mode.snap-4.comment
+						snap-4 = true
+						#chiselsandbits.config.client.settings.enable.chisel-mode.connected-material.comment
+						connected-material = true
+						#chiselsandbits.config.client.settings.enable.chisel-mode.cube-large.comment
+						cube-large = true
+						#chiselsandbits.config.client.settings.enable.chisel-mode.snap-8.comment
+						snap-8 = true
+						#chiselsandbits.config.client.settings.enable.chisel-mode.same-material.comment
+						same-material = true
+						#chiselsandbits.config.client.settings.enable.chisel-mode.connected-plane.comment
+						connected-plane = true
+						#chiselsandbits.config.client.settings.enable.chisel-mode.cube-medium.comment
+						cube-medium = true
+
+					[client.settings.client.settings.enable.pattern-mode]
+						#chiselsandbits.config.client.settings.enable.pattern-mode.impose.comment
+						impose = true
+						#chiselsandbits.config.client.settings.enable.pattern-mode.replace.comment
+						replace = true
+						#chiselsandbits.config.client.settings.enable.pattern-mode.placement.comment
+						placement = true
+						#chiselsandbits.config.client.settings.enable.pattern-mode.additive.comment
+						additive = true
+
+					[client.settings.client.settings.enable.tape-measure]
+						#chiselsandbits.config.client.settings.enable.tape-measure.distance.comment
+						distance = true
+						#chiselsandbits.config.client.settings.enable.tape-measure.block.comment
+						block = true
+						#chiselsandbits.config.client.settings.enable.tape-measure.bit.comment
+						bit = true
+
+				[client.settings.client.settings.bits]
+
+					[client.settings.client.settings.bits.fluid]
+						#chiselsandbits.config.client.settings.bits.fluid.click-through.comment
+						click-through = false
+
+				[client.settings.client.settings.tape-measure]
+					#chiselsandbits.config.client.settings.tape-measure.max-count.comment
+					#Range: > -2147483648
+					max-count = 10
+					#chiselsandbits.config.client.settings.tape-measure.display-in-chat.comment
+					display-in-chat = true
+
+				[client.settings.client.settings.clipboard]
+					#chiselsandbits.config.client.settings.clipboard.add-broken-blocks.comment
+					add-broken-blocks = false
+
+					[client.settings.client.settings.clipboard.persist]
+						#chiselsandbits.config.client.settings.clipboard.persist.creative.comment
+						creative = true
+
+	[client.client]
+
+		#chiselsandbits.config.client.performance.comment
+		[client.client.performance]
+
+			[client.client.performance.client]
+
+				[client.client.performance.client.performance]
+
+					[client.client.performance.client.performance.dynamic-models]
+						#chiselsandbits.config.client.performance.dynamic-models.face-count.comment
+						#Range: > -2147483648
+						face-count = 40
+						#chiselsandbits.config.client.performance.dynamic-models.range.comment
+						#Range: > -2147483648
+						range = 128
+						#chiselsandbits.config.client.performance.dynamic-models.minimize-latency.comment
+						minimize-latency = true
+
+					[client.client.performance.client.performance.latency]
+						#chiselsandbits.config.client.performance.latency.max-time.comment
+						#Range: -9223372036854775808 ~ 9223372036854775807
+						max-time = 100
+
+					[client.client.performance.client.performance.timings]
+						#chiselsandbits.config.client.performance.timings.max-milliseconds-per-block.comment
+						#Range: > -2147483648
+						max-milliseconds-per-block = 10
+						#chiselsandbits.config.client.performance.timings.max-milliseconds-uploading-per-frame.comment
+						#Range: > -2147483648
+						max-milliseconds-uploading-per-frame = 15
+
+					[client.client.performance.client.performance.tesselators]
+						#chiselsandbits.config.client.performance.tesselators.max-concurrent.comment
+						#Range: > -2147483648
+						max-concurrent = 32
+
+					[client.client.performance.client.performance.dynamic-rendering]
+						#chiselsandbits.config.client.performance.dynamic-rendering.default.comment
+						default = false
+						#chiselsandbits.config.client.performance.dynamic-rendering.full-chunks-only.comment
+						full-chunks-only = false
+						#chiselsandbits.config.client.performance.dynamic-rendering.force.comment
+						force = false
+
