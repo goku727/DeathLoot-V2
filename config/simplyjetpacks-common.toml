@@ -4,16 +4,16 @@
 
 	#Integration Configurations
 	[simplyjetpacks-common.integration]
+		#Enable Vanilla Jetpacks Integration.
+		enableIntegrationVanilla = true
+		#Enable Immersive Engineering Jetpacks Integration.
+		enableIntegrationImmersiveEngineering = true
+		#Enable Mekanism Jetpacks Integration.
+		enableIntegrationMekanism = true
 		#Enable EnderIO Jetpacks Integration.
 		enableIntegrationEnderIO = true
 		#Enable Thermal Expansion Jetpacks Integration.
 		enableIntegrationThermalExpansion = true
 		#Enable Thermal Dynamics Jetpacks Integration.
 		enableIntegrationThermalDynamics = true
-		#Enable Mekanism Jetpacks Integration.
-		enableIntegrationMekanism = true
-		#Enable Vanilla Jetpacks Integration.
-		enableIntegrationVanilla = true
-		#Enable Immersive Engineering Jetpacks Integration.
-		enableIntegrationImmersiveEngineering = true
 

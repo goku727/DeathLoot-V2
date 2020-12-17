@@ -1,0 +1,12 @@
+
+#Common configuration settings
+[common]
+	#Check for new versions of Vampirism on startup
+	versionCheck = true
+	#Send mod version, MC version and mod count to mod author
+	collectStats = true
+	#Use the vanilla campfire block instead of Vampirism's much cooler one
+	useVanillaCampfire = false
+	#INTERNAL - Set to 'never' if you don't want to be notified about integration mods
+	integrationsNotifier = ""
+

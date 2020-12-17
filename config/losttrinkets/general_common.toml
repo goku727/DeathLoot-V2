@@ -2,15 +2,15 @@
 unlockEnabled = true
 
 [Trinket_Slots]
-	#Amount of Xp levels added to the next unlocking cost.
-	#Range: 0 ~ 20
-	slotUpFactor = 3
 	#Numbers of trinket slots the player will start with (Only effect newer players!!).
 	#Range: 0 ~ 40
 	startSlots = 1
 	#Levels of xp needed to unlock a trinket slot.
 	#Range: 0 ~ 1000
 	slotCost = 15
+	#Amount of Xp levels added to the next unlocking cost.
+	#Range: 0 ~ 20
+	slotUpFactor = 3
 
 [Killing_Unlocks]
 	#Set to false to disable unlocking trinkets from killing non-Boss entities.
@@ -34,23 +34,23 @@ unlockEnabled = true
 	farming = 140
 
 [Ores_Mining_Unlocks]
+	#Set to false to disable unlocking trinkets from mining ores.
+	oresMiningUnlockEnabled = true
 	#Rarity of unlocking a trinket from mining ores. (Greater number = more rare)
 	#Range: 2 ~ 100000
 	oresMining = 100
-	#Set to false to disable unlocking trinkets from mining ores.
-	oresMiningUnlockEnabled = true
 
 [Trading_Unlocks]
+	#Set to false to disable unlocking trinkets from trading.
+	tradingUnlockEnabled = true
 	#Rarity of unlocking a trinket from trading. (Greater number = more rare)
 	#Range: 2 ~ 100000
 	trading = 30
-	#Set to false to disable unlocking trinkets from trading.
-	tradingUnlockEnabled = true
 
 [Wood_Cutting_Unlocks]
+	#Set to false to disable unlocking trinkets from cutting trees.
+	woodCuttingUnlockEnabled = true
 	#Rarity of unlocking a trinket from cutting trees. (Greater number = more rare)
 	#Range: 2 ~ 100000
 	woodCutting = 170
-	#Set to false to disable unlocking trinkets from cutting trees.
-	woodCuttingUnlockEnabled = true
 

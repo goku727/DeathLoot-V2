@@ -5,6 +5,45 @@
 [cyclic]
 
 	#####################################################################################
+	#eeeee
+	#####################################################################################
+	[cyclic.enchantment]
+		#Set false to disable enchantment
+		traveler = true
+		#Set false to disable enchantment
+		reach = true
+		#Set false to disable enchantment
+		beekeeper = true
+		#Set false to disable enchantment
+		experience_boost = true
+		#Set false to disable enchantment
+		ender = true
+		#Set false to disable enchantment
+		disarm = true
+		#Set false to disable enchantment
+		excavate = true
+		#Set false to disable enchantment
+		magnet = true
+		#Set false to disable enchantment
+		multishot = true
+		#Set false to disable enchantment
+		beheading = true
+		#Set false to disable enchantment
+		quickshot = true
+		#Set false to disable enchantment
+		venom = true
+		#Set false to disable enchantment
+		life_leech = true
+		#Set false to disable enchantment
+		curse = true
+		#Set false to disable enchantment
+		auto_smelt = true
+		#Set false to disable enchantment
+		growth = true
+		#Set false to disable enchantment
+		step = true
+
+	#####################################################################################
 	# Enchantment related configs
 	#####################################################################################
 	[cyclic.enchant]
@@ -102,6 +141,10 @@
 			#Power per use crafter
 			#Range: 0 ~ 64000
 			crafter = 500
+			#################
+			#Power per use user
+			#Range: 0 ~ 64000
+			user = 50
 			#Power per recipe solidifier
 			#Range: 0 ~ 64000
 			solidifier = 5000

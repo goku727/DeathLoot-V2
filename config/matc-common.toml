@@ -1,24 +1,26 @@
 
 #Number of uses for each crystal
 [Uses]
-	#Durability for the Supremium Crystal
-	#Range: > 1
-	supremiumDurability = 4096
-	#Durability for the Prudentium Crystal
-	#Range: > 1
-	prudentiumDurability = 512
 	#Durability for the Inferium Crystal
 	#Range: > 1
 	inferiumDurability = 256
-	#Durability for the Imperium Crystal
+	#Durability for the Prudentium Crystal
 	#Range: > 1
-	imperiumDurability = 2048
+	prudentiumDurability = 512
 	#Durability for the Tertium Crystal
 	#Range: > 1
 	tertiumDurability = 1024
+	#Durability for the Imperium Crystal
+	#Range: > 1
+	imperiumDurability = 2048
+	#Durability for the Supremium Crystal
+	#Range: > 1
+	supremiumDurability = 4096
 
 #Whether or not crystals should have durability.
 ["Enable / Disable Durability"]
+	#Should the Inferium Crystal Have Durability?
+	inferiumDurabilityEnabled = true
 	#Should the Prudentium Crystal Have Durability?
 	prudentiumDurabilityEnabled = true
 	#Should the Tertium Crystal Have Durability?
@@ -27,6 +29,4 @@
 	imperiumDurabilityEnabled = true
 	#Should the Supremium Crystal Have Durability?
 	supremiumDurabilityEnabled = true
-	#Should the Inferium Crystal Have Durability?
-	inferiumDurabilityEnabled = true
 

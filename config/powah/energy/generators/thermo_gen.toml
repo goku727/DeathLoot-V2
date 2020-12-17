@@ -1,56 +1,49 @@
-#
-#List of fluids used in the Magmator.
-#fluid registry name = heat per 100 mb eg: ["minecraft:lava=10000", "examplemod:fluid=1000"]
-#Min = 1, max = 900000000
-magmaticFluids = ["minecraft:lava=10000"]
-#Enable this to allow other mods to add their fluids. [default:true]
-magmaticFluidsAPI = true
 
 [Energy_Capacity]
 	#Range: 0 ~ 9000000000000000000
-	spiritedCap = 5000000
+	starterCap = 5000
 	#Range: 0 ~ 9000000000000000000
-	blazingCap = 900000
+	basicCap = 25000
 	#Range: 0 ~ 9000000000000000000
-	basicCap = 100000
+	hardenedCap = 100000
 	#Range: 0 ~ 9000000000000000000
-	nioticCap = 2000000
+	blazingCap = 500000
 	#Range: 0 ~ 9000000000000000000
-	nitroCap = 10000000
+	nioticCap = 1000000
 	#Range: 0 ~ 9000000000000000000
-	hardenedCap = 500000
+	spiritedCap = 2500000
 	#Range: 0 ~ 9000000000000000000
-	starterCap = 10000
+	nitroCap = 8000000
 
 [Energy_Transfer]
 	#Range: 0 ~ 9000000000000000000
-	spiritedTransfer = 7000
+	starterTransfer = 50
 	#Range: 0 ~ 9000000000000000000
-	starterTransfer = 80
+	basicTransfer = 150
 	#Range: 0 ~ 9000000000000000000
-	basicTransfer = 200
+	hardenedTransfer = 300
 	#Range: 0 ~ 9000000000000000000
-	hardenedTransfer = 700
+	blazingTransfer = 700
 	#Range: 0 ~ 9000000000000000000
-	nioticTransfer = 5000
+	nioticTransfer = 1000
 	#Range: 0 ~ 9000000000000000000
-	blazingTransfer = 1200
+	spiritedTransfer = 2000
 	#Range: 0 ~ 9000000000000000000
-	nitroTransfer = 10000
+	nitroTransfer = 4000
 
 [Energy_Generation]
 	#Range: 0 ~ 9000000000000000000
-	blazingGeneration = 400
+	starterGeneration = 3
 	#Range: 0 ~ 9000000000000000000
-	starterGeneration = 15
+	basicGeneration = 8
 	#Range: 0 ~ 9000000000000000000
-	nitroGeneration = 4800
+	hardenedGeneration = 18
 	#Range: 0 ~ 9000000000000000000
-	hardenedGeneration = 180
+	blazingGeneration = 42
 	#Range: 0 ~ 9000000000000000000
-	spiritedGeneration = 2000
+	nioticGeneration = 90
 	#Range: 0 ~ 9000000000000000000
-	basicGeneration = 70
+	spiritedGeneration = 200
 	#Range: 0 ~ 9000000000000000000
-	nioticGeneration = 900
+	nitroGeneration = 800
 

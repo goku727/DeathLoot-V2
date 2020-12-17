@@ -45,7 +45,35 @@
 		#Range: > 1
 		tankCapacity = 50000
 
+	[factory.exotic]
+		#Percentage reduction for recipe fluids
+		#Range: 0.0 ~ 100.0
+		exoticAPercentage = 85.0
+		#Percentage reduction for recipe fluids
+		#Range: 0.0 ~ 100.0
+		exoticBPercentage = 85.0
+		#Number of ticks between spawns
+		#Range: > 1
+		exoticDTicks = 20
+		#Number of mobs to spawn
+		#Range: > 1
+		exoticECount = 10
+		#Percentage reduction for Conatus fluid
+		#Range: 0.0 ~ 100.0
+		exoticCPercentage = 85.0
+
 	[factory.perks]
+
+		[factory.perks.headless]
+			#Percentage chance to drop a skull for headless 2 perks
+			#Range: 0 ~ 1000
+			l2HeadlessChance = 50
+			#Percentage chance to drop a skull for headless 3 perks
+			#Range: 0 ~ 1000
+			l3HeadlessChance = 80
+			#Percentage chance to drop a skull for headless 1 perks
+			#Range: 0 ~ 1000
+			l1HeadlessChance = 25
 
 		[factory.perks.tierShard]
 			#Chance to drop essence from a Tier 3 factory
@@ -126,6 +154,28 @@
 			#Percentage generate of XP for xp 1 perks
 			#Range: 0 ~ 1000
 			l1Generate = 100
+
+		[factory.perks.slaughter]
+			#Percentage of liquid meat and pink slime to drop for slaughter 1 perks
+			#Range: 0 ~ 1000
+			l1SlaughterAmount = 100
+			#Percentage of liquid meat and pink slime to drop for slaughter 2 perks
+			#Range: 0 ~ 1000
+			l2SlaughterAmount = 120
+			#Percentage of liquid meat and pink slime to drop for slaughter 3 perks
+			#Range: 0 ~ 1000
+			l3SlaughterAmount = 140
+
+		[factory.perks.crusher]
+			#Percentage of essence to drop for crusher 3 perks
+			#Range: 0 ~ 1000
+			l3CrusherAmount = 140
+			#Percentage of essence to drop for crusher 1 perks
+			#Range: 0 ~ 1000
+			l1CrusherAmount = 100
+			#Percentage of essence to drop for crusher 2 perks
+			#Range: 0 ~ 1000
+			l2CrusherAmount = 120
 
 	[factory.premiumCell]
 		#Tank max transfer rate (mb/t per side)
@@ -262,10 +312,31 @@
 		enchantEnergyLevel5 = 5000
 		#Tank capacity (mb)
 		#Range: > 0
-		tankCapacity = 5000
+		tankCapacity = 10000
 		#Maximum energy that can be received (RF/t)
 		#Range: > 0
 		energyRxPerTick = 100
+
+#Settings for commands
+[commands]
+	#Show status of mob simulation command level
+	#Range: 0 ~ 10
+	simStatusLevel = 0
+	#Display loot table of a mob command level
+	#Range: 0 ~ 10
+	simDumpLevel = 0
+	#Manual learning of a mob command level
+	#Range: 0 ~ 10
+	simLearnLevel = 2
+	#Flush loot table of a mob command level
+	#Range: 0 ~ 10
+	simFlushLevel = 2
+	#Test drop of a mob command level
+	#Range: 0 ~ 10
+	simRollDropsLevel = 0
+	#Give mob controller command level
+	#Range: 0 ~ 10
+	giveControllerLevel = 2
 
 #Settings for the factory
 [policy]
@@ -291,18 +362,20 @@
 		customDropsOnly = ["minecraft:ender_dragon"]
 
 		[policy.mob.perk]
-			#Set mass perk level 1 for a mob
-			mass1 = ["minecraft:ender_dragon,2", "minecraft:wither,2"]
-			#Set mass perk level 3 for a mob
-			mass3 = ["minecraft:ender_dragon,4", "minecraft:wither,4"]
-			#Set mass perk level 2 for a mob
-			mass2 = ["minecraft:ender_dragon,3", "minecraft:wither,3"]
 			#Set rate perk level 1 for a mob
 			rate1 = []
 			#Set rate perk level 2 for a mob
 			rate2 = []
 			#Set rate perk level 3 for a mob
 			rate3 = []
+			#Set mass perk level 1 for a mob
+			mass1 = ["minecraft:ender_dragon,2", "minecraft:wither,2"]
+			#Set mass perk level 3 for a mob
+			mass3 = ["minecraft:ender_dragon,4", "minecraft:wither,4"]
+			#A list of mobs and their skull drop
+			headlessSkulls = ["minecraft:skeleton,{\"item\": \"minecraft:skeleton_skull\"}", "minecraft:wither_skeleton,{\"item\": \"minecraft:wither_skeleton_skull\"}", "minecraft:zombie,{\"item\": \"minecraft:zombie_head\"}", "minecraft:creeper,{\"item\": \"minecraft:creeper_head\"}"]
+			#Set mass perk level 2 for a mob
+			mass2 = ["minecraft:ender_dragon,3", "minecraft:wither,3"]
 			#Set xp perk level 1 for a mob
 			xp1 = []
 			#Set xp perk level 3 for a mob
@@ -311,10 +384,16 @@
 			xp2 = []
 			#Set efficiency perk level 2 for a mob
 			efficiency2 = []
+			#Set headless perk level 3 for a mob
+			headless3 = []
 			#Set efficiency perk level 1 for a mob
 			efficiency1 = []
+			#Set headless perk level 1 for a mob
+			headless1 = []
 			#Set efficiency perk level 3 for a mob
 			efficiency3 = []
+			#Set headless perk level 2 for a mob
+			headless2 = []
 
 	[policy.blacklist]
 		#Do not generate the following items
