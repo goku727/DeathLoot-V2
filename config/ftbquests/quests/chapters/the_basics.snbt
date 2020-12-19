@@ -1,0 +1,44 @@
+{
+	id: 5,
+	filename: "the_basics",
+	order_index: 2,
+	title: "The basics",
+	icon: "minecraft:crafting_table",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Introduction",
+			x: 0.0d,
+			y: -2.5d,
+			id: 6,
+			tasks: [{
+				id: 7,
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "Basics Tools",
+			x: -2.0d,
+			y: 0.0d,
+			dependencies: [I;6],
+			id: 8,
+			tasks: [{
+				id: 9,
+				type: "item",
+				item: {
+					id: "tetra:modular_double",
+					Count: true,
+					tag: {
+						"double/handle": "double/basic_handle",
+						"double/head_left": "double/basic_hammer_left",
+						"double/head_right": "double/basic_hammer_right",
+						Damage: 0,
+						"double/basic_hammer_right_material": "basic_hammer/log",
+						"double/basic_handle_material": "basic_handle/stick",
+						"double/basic_hammer_left_material": "basic_hammer/log"
+					}
+				}
+			}]
+		}
+	]
+}

@@ -30,7 +30,7 @@
 #Configurations related to item selection.
 [itemSelection]
 	#List of mods that are preferred when selecting items in recipes.
-	preferredMods = ["minecraft", "alltheores"]
+	preferredMods = ["minecraft"]
 
 #Configurations related to block tags.
 [blockTags]

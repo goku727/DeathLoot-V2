@@ -208,6 +208,39 @@
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
 	max = 65536.0
 
+#Values for the vampirism:sundamage attribute.
+[vampirism_sundamage]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 4.9E-324
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the vampirism:blood_exhaustion attribute.
+[vampirism_blood_exhaustion]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 4.9E-324
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the vampirism:bite_damage attribute.
+[vampirism_bite_damage]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 4.9E-324
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
 #Values for the forge:swim_speed attribute.
 [forge_swim_speed]
 	#Whether or not this attribute should be modified.
@@ -353,39 +386,6 @@
 
 #Values for the apotheosis:overhealing attribute.
 [apotheosis_overhealing]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the vampirism:sundamage attribute.
-[vampirism_sundamage]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the vampirism:blood_exhaustion attribute.
-[vampirism_blood_exhaustion]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the vampirism:bite_damage attribute.
-[vampirism_bite_damage]
 	#Whether or not this attribute should be modified.
 	enabled = true
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.

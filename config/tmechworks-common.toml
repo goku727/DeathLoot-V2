@@ -2,7 +2,7 @@
 #Everything to do with world generation
 [world]
 	#Whether world generation is enabled as a whole
-	enabled = false
+	enabled = true
 
 	#Generation settings for copper ore
 	[world.copper]

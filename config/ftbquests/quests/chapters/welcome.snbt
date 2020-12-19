@@ -1,0 +1,19 @@
+{
+	id: 2,
+	filename: "welcome",
+	order_index: 1,
+	title: "Welcome",
+	icon: "minecraft:oak_sapling",
+	default_quest_shape: "",
+	quests: [{
+		x: 0.0d,
+		y: -1.0d,
+		id: 3,
+		tasks: [{
+			id: 4,
+			type: "checkmark",
+			title: "Welcome to the hell",
+			icon: "botania:cosmetic_questgiver_mark"
+		}]
+	}]
+}

@@ -11,7 +11,7 @@
 	#Whitelist mob spawn (troll, hippogryph, etc) dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
 	blacklistDimensions = ["minecraft:overworld"]
 	#Whether to generate copper ore or not
-	"Generate Copper Ore" = false
+	"Generate Copper Ore" = true
 	#Whether to generate sapphire ore or not
 	"Generate Sapphire Ore" = true
 	#Whether to generate amethyst ore or not
